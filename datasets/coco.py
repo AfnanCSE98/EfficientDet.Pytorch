@@ -120,7 +120,7 @@ class CocoDataset(Dataset):
         return float(image['width']) / float(image['height'])
 
     def num_classes(self):
-        return 80
+        return 21
 
 
 if __name__ == '__main__':
